@@ -12,11 +12,15 @@ public class User {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "lasMane")
+    @Column(name = "lastName")
     private String lastName;
 
     @Column(name = "age")
     private Byte age;
+
+    public User () {
+
+    }
 
     public User(String name, String lastName, Byte age) {
         this.name = name;
